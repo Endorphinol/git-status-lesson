@@ -1,6 +1,8 @@
 ```mermaid
-%% Привет
 graph LR;
-A --> B;
-untracked -- "git add" --> tracked;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
 ```
