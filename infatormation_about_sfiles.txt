@@ -1,5 +1,6 @@
 ```mermaid
+%% Привет
 graph LR;
-%% Первое сообщение;
 A --> B;
+untracked -- "git add" --> tracked;
 ```
