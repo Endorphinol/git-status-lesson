@@ -61,7 +61,7 @@
 git status показывает явно следующие состояния файлов: untracked, staged и modified.
 
 git status подсказывает, какие команды можно выполнить, чтобы поменять состояние файла.
-Untracked -- "git add" --> staged;
-A --> B;
-
+graph LR;
+  Untracked -- "git add" --> staged;
+  A --> B;
 ```
